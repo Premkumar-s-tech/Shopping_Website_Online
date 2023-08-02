@@ -1,0 +1,12 @@
+<div class="d-flex flex-wrap">
+    <div class="card mx-3 mb-4" style="width: 18rem;" *ngFor="let i of reqdata">
+      <img src="{{i.img}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h3 class="card-title">{{i.title}}</h3>
+        <p><strong>₹{{i.price}}.00</strong></p>
+        <p class="card-text">{{i.des}}</p>
+        <a href="#" class="btn btn-primary">Buy Now</a>
+        <a href="#" class="btn btn-warning" style="margin-left: 70px;">Add Cart</a>
+      </div>
+    </div>
+</div>
