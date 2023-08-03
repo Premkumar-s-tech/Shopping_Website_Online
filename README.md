@@ -9,3 +9,5 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## This is just a Frontend Project based on Angular.js
 
 In the future more Additional functionality will be added to this project.
+
+## Backend was developed using Spring
